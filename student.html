@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+   
+</head>
+<body style="text-align: center;">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #6140b9;
+          color: white;
+        }
+
+    </style>
+     <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="administration.html"> Administration</a>
+        <a href="academics.html"> Academics</a>
+        <a href="placement.html">Placement</a>
+        <a class="active" href="#student">StudentCorner</a>
+    
+        <a href="dailynews.html">DailyNews</a>
+        <a href="admission.html">Adminision_2025</a>
+        <a href="contact.html">About</a>
+      </div>
+      
+      <div style="padding-left:16px">
+    <div class="login-container">
+        <h2>Login for students </h2>
+        <img src="img2.jpg"  alt="clg"  height="300" width="400" >
+        <form action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+<br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+<br><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

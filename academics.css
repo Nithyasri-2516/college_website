@@ -1,0 +1,33 @@
+.cse1{
+    text-align: center;
+}
+
+.eee2{
+    text-align: center;
+}
+
+#insights{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px; 
+    background-color: #f5f5f5; 
+}
+
+.images {
+    border: 2px solid rgb(224, 99, 105);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.images p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1rem; 
+    color: #333; 
+}
